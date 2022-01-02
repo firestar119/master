@@ -173,5 +173,5 @@ def powerRefresh() {
 }
 
 private getIsPolling() {
-    return (device.getDataValue("model") == "TS0121" || device.getDataValue("manufacturer") == " _TZ3000_w0qqde0g" && device.getDataValue("manufacturer") != "_TZ3000_8nkb7mof")
+    return (device.getDataValue("model") == "TS0121" || device.getDataValue("manufacturer") == "_TZ3000_w0qqde0g" && device.getDataValue("manufacturer") != "_TZ3000_8nkb7mof")
 }
